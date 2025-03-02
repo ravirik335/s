@@ -97,7 +97,7 @@ def handle_attack(message):
     command = message.text.split()
 
     if message.chat.id != int(GROUP_ID):
-        bot.reply_to(message, f"🚫 𝐘𝐄 𝐁𝐎𝐓 𝐒𝐈𝐑𝐅 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄 𝐂𝐇𝐀𝐋𝐄𝐆𝐀 ❌\n🔗 𝐉𝐨𝐢𝐧 𝐍𝐨𝐖: {https://t.me/freeddosh}")
+        bot.reply_to(message, f"🚫 𝐘𝐄 𝐁𝐎𝐓 𝐒𝐈𝐑𝐅 𝐆𝐑𝐎𝐔𝐏 𝐌𝐄 𝐂𝐇𝐀𝐋𝐄𝐆𝐀 ❌\n🔗 𝐉𝐨𝐢𝐧 𝐍𝐨𝐖: {@ddos_bot_free}")
         return
 
     if not is_user_in_channel(user_id):
@@ -278,7 +278,7 @@ def handle_screenshot(message):
         user_status = bot.get_chat_member(CHANNEL_USERNAME, user_id).status
         if user_status not in ['member', 'administrator', 'creator']:
             bot.reply_to(message, f"❌ **𝐘𝐨𝐮 𝐌𝐔𝐒𝐓 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐅𝐈𝐑𝐒𝐓!**\n"
-                                  f"🔗 **𝐉𝐨𝐢𝐧 𝐇𝐞𝐫𝐞:** [Click Here](https://t.me/ddosfeedbak)")
+                                  f"🔗 **𝐉𝐨𝐢𝐧 𝐇𝐞𝐫𝐞:** [Click Here](https://t.me/ddos_bot_free)")
             return  
     except Exception as e:
         bot.reply_to(message, "❌ **𝐂𝐨𝐮𝐥𝐝 𝐍𝐨𝐭 𝐕𝐞𝐫𝐢𝐟𝐲! 𝐌𝐚𝐤𝐞 𝐒𝐮𝐫𝐞 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐈𝐬 𝐀𝐝𝐦𝐢𝐧 𝐈𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥.**")
