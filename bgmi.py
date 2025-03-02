@@ -16,7 +16,7 @@ admin_id = ["6864281179"]
 
 # Group and channel details
 GROUP_ID = "-1002334685243"
-CHANNEL_USERNAME = "@MEXDEVELOPER"
+CHANNEL_USERNAME = "https://t.me/freeddosh"
 
 # Default cooldown and attack limits
 COOLDOWN_TIME = 0  # Cooldown in seconds
