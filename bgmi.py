@@ -16,7 +16,7 @@ admin_id = ["6864281179"]
 
 # Group and channel details
 GROUP_ID = "-1002334685243"
-CHANNEL_USERNAME = "https://t.me/freeddosh"
+CHANNEL_USERNAME = "@MExDEVELOPER"
 
 # Default cooldown and attack limits
 COOLDOWN_TIME = 0  # Cooldown in seconds
@@ -134,8 +134,8 @@ def handle_attack(message):
         bot.reply_to(message, "❌ **𝐄𝐑𝐑𝐎𝐑:** 𝐏𝐎𝐑𝐓 𝐀𝐍𝐃 𝐓𝐈𝐌𝐄 𝐌𝐔𝐒𝐓 𝐁𝐄 𝐈𝐍𝐓𝐄𝐆𝐄𝐑𝐒!")
         return
 
-    if time_duration > 180:
-        bot.reply_to(message, "🚫 **𝐌𝐀𝐗 𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍 = 𝟏80𝐬!**")
+    if time_duration > 120:
+        bot.reply_to(message, "🚫 **𝐌𝐀𝐗 𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍 = 𝟏𝟐𝟎𝐬!**")
         return
 
     # Get the user's profile picture
@@ -311,7 +311,7 @@ def welcome_start(message):
 ⚡ 𝐁𝐄 𝐓𝐇𝐄 𝐊𝐈𝐍𝐆, 𝐃𝐎𝐌𝐈𝐍𝐀𝐓𝐄 𝐓𝐇𝐄 𝐖𝐄𝐁!  
 
 🔗 **𝐓𝐨 𝐔𝐬𝐞 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭, 𝐉𝐨𝐢𝐧 𝐍𝐨𝐰:**  
-👉 [𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥](https://t.me/+SCgV7yRZK3Q3YTA1) 🚀🔥"""
+👉 [𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥](https://t.me/freeddosh) 🚀🔥"""
     
     bot.reply_to(message, response, parse_mode="Markdown")
 # Function to reset daily limits automatically
